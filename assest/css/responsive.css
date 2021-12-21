@@ -1,0 +1,209 @@
+#click {
+	display: none;
+}
+.menu-bar {
+	display: none !important;
+}
+.label {
+	z-index: 51;
+	position: relative;
+}
+.nav-logo {
+	z-index: 51;
+}
+@media(max-width:1200px){
+    .statics-head p {
+        width: 55%;
+        margin-bottom: 30px;
+    }
+
+    .primary-btn a {
+        padding: 13px 30px;
+    }
+}
+
+@media(max-width:992px){
+    .chef-bio img {
+        max-width: 100%;
+    }
+    .chef-head p {
+        width: 70%;
+    }
+    .statics-single {
+        width: 200px;
+        height: 200px;
+    }
+    .single-product {
+        width: 100%;
+    }
+
+    .primary-btn a {
+        padding: 13px 15px;
+    }
+
+    .subscribe-main {
+        width: 65%;
+
+    }
+    .subscribe-head p {
+        width: 65%;
+    }
+    
+}
+
+@media(max-width:768px){
+    .chef-head p {
+        width: 85%;
+        margin-bottom: 30px;
+    }
+    .chef-bio {
+        margin-bottom: 30px;
+    }
+    .footer-section {
+        padding: 70px 0px 70px 0px;
+    }
+
+    .footer-single {
+        margin-bottom: 30px;
+    }
+
+    .footer-content {
+        margin-bottom: 40px;
+    }
+
+    .subscribe-head h1 {
+        font-size: 45px;
+    }
+    .subscribe-section {
+        background-position: center;
+        background-size: cover;
+    }
+    .subscribe-head p {
+        width: 90%;
+    }
+
+    .subscribe-main {
+        width: 80%;
+    }
+
+    .testimonial {
+        text-align: center;
+        z-index: 1;
+    }
+    .nav-menu {
+        position: fixed !important;
+        top: -100%;
+        left: 0%;
+        background: #f64b3c;
+        width: 100%;
+        height: 50vh;
+        flex-direction: column;
+        z-index: 50;
+        padding: 50px;
+        text-align: center;
+        transition: all 0.5s ease;
+    }
+    nav .nav-menu li {
+        margin-bottom: 25px;
+    }
+
+    .checkbox:checked~.nav-menu {
+        top: 0%;
+    }
+    .menu-bar {
+        display: initial !important;
+    }
+
+    .primary-btn {
+        margin-top: 30px;
+    }
+    .banner-content p {
+        margin-bottom: 25px;
+    }
+    .banner-content h1 {
+        font-size: 43px;
+    }
+    .banner-content {
+        margin-top: 20px;
+    }
+
+    .burger-promo-content p {
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+    .burger-promo-content {
+        align-items: center;
+    }
+    .burger-promo-img {
+        margin-bottom: 50px;
+    }
+    .big-promo-content p {
+        width: 70%;
+        text-align: center;
+        margin: auto;
+    }
+    .big-promo-content {
+        align-items: center;
+    }
+    .big-promo-img {
+        margin-top: 60px !important;
+    }
+    .big-burger {
+        background-position: left;
+        background-size: cover;
+    }
+    .statics-single {
+        margin-bottom: 40px;
+    }
+    .statics-head p {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    .statics-single h1 {
+        font-size: 50px;
+    }
+    .single-product {
+        width: 70%;
+        margin-bottom: 30px;
+    }
+    .product-head h1 {
+        margin-bottom: 25px;
+    }
+    .testimonial p {
+        width: 70%;
+    }
+    .product-head h1 {
+        font-size: 45px;
+    }
+
+}
+@media(max-width:576px){
+    .subscribe-main {
+        width: 90%;
+    }
+    .banner-content {
+        width: 70%;
+    }
+}
+@media(max-width:400px){
+    .subscribe-btn {
+
+        width: 40%;
+
+    }
+    .subscribe-main input {
+        width: 60%;
+    }
+    .subscribe-head p {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .subscribe-head h1 {
+        font-size: 35px;
+    }
+    .product-head h1 {
+        font-size: 40px;
+    }
+}
